@@ -28276,3 +28276,36 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2024-05-11 14:57:13.037 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-11 14:57:13.040 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-05-11 14:57:13.048 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-11 15:30:15.798 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.shopapp.ShopappApplicationTests]: ShopappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-11 15:30:15.890 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.shopapp.ShopappApplication for test class com.project.shopapp.ShopappApplicationTests
+2024-05-11 15:30:16.198 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-11 15:30:16.218 [main] INFO  c.p.shopapp.ShopappApplicationTests - Starting ShopappApplicationTests using Java 17.0.8 with PID 10760 (started by ACER-PC in E:\Udemy\ShopApp2\shopapp-backend\shopapp)
+2024-05-11 15:30:16.219 [main] INFO  c.p.shopapp.ShopappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:30:16.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-11 15:30:16.934 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 7 JPA repository interfaces.
+2024-05-11 15:30:17.402 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-11 15:30:17.453 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-11 15:30:17.485 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-11 15:30:17.743 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-11 15:30:17.771 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-11 15:30:17.911 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@365e65bb
+2024-05-11 15:30:17.913 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-11 15:30:17.952 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-11 15:30:18.983 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-11 15:30:18.985 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 15:30:19.001 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-11 15:30:19.426 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-11 15:30:20.313 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62ee252b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f535d77, org.springframework.security.web.context.SecurityContextHolderFilter@67b7b892, org.springframework.security.web.header.HeaderWriterFilter@bea7f47, org.springframework.web.filter.CorsFilter@19097fa5, org.springframework.security.web.authentication.logout.LogoutFilter@6d6d9406, com.project.shopapp.filters.JwtTokenFilter@24d7c365, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@726cda5b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15800a35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cf9557a, org.springframework.security.web.access.ExceptionTranslationFilter@1f1d3207, org.springframework.security.web.access.intercept.AuthorizationFilter@3ad6ecc5]
+2024-05-11 15:30:20.323 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2024-05-11 15:30:20.632 [main] INFO  c.p.shopapp.ShopappApplicationTests - Started ShopappApplicationTests in 4.607 seconds (process running for 5.442)
+2024-05-11 15:30:21.093 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 15:30:21.096 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-11 15:30:21.103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
