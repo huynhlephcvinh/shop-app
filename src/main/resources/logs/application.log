@@ -28237,3 +28237,42 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 2024-05-11 14:50:01.989 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-11 14:50:01.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-05-11 14:50:01.999 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-11 14:56:32.063 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-11 14:56:32.129 [main] INFO  c.project.shopapp.ShopappApplication - Starting ShopappApplication v0.0.1-SNAPSHOT using Java 17.0.8 with PID 9484 (E:\Udemy\ShopApp2\shopapp-backend\shopapp\target\shopapp-0.0.1-SNAPSHOT.jar started by ACER-PC in E:\Udemy\ShopApp2\shopapp-backend\shopapp)
+2024-05-11 14:56:32.130 [main] INFO  c.project.shopapp.ShopappApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:56:33.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-11 14:56:33.088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 7 JPA repository interfaces.
+2024-05-11 14:56:33.765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8088 (http)
+2024-05-11 14:56:33.776 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2024-05-11 14:56:33.781 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-11 14:56:33.782 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-05-11 14:56:33.833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-11 14:56:33.835 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1631 ms
+2024-05-11 14:56:33.988 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-11 14:56:34.056 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-11 14:56:34.092 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-11 14:56:34.315 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-11 14:56:34.392 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-11 14:56:34.557 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ff6804a
+2024-05-11 14:56:34.558 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-11 14:56:34.595 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-11 14:56:35.414 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-11 14:56:35.416 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 14:56:35.762 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-11 14:56:35.878 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-11 14:56:36.732 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d4f29a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19181b06, org.springframework.security.web.context.SecurityContextHolderFilter@27868127, org.springframework.security.web.header.HeaderWriterFilter@60d1b2a7, org.springframework.web.filter.CorsFilter@173398da, org.springframework.security.web.authentication.logout.LogoutFilter@2ae84b49, com.project.shopapp.filters.JwtTokenFilter@363e2009, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17f83573, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fd2716f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72584c3f, org.springframework.security.web.access.ExceptionTranslationFilter@efac87a, org.springframework.security.web.access.intercept.AuthorizationFilter@4907b487]
+2024-05-11 14:56:36.744 [main] WARN  o.s.s.c.a.web.builders.WebSecurity - 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2024-05-11 14:56:37.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2024-05-11 14:56:37.042 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8088 (http) with context path ''
+2024-05-11 14:56:37.060 [main] INFO  c.project.shopapp.ShopappApplication - Started ShopappApplication in 5.359 seconds (process running for 5.935)
+2024-05-11 14:57:13.037 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 14:57:13.040 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-11 14:57:13.048 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
