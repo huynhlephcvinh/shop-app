@@ -52,7 +52,7 @@ public class UserController {
 
         try {
             User user = userService.createUser(userDTO);
-            registerResponse.setMessage(localizationUtils.getLocalizedMessage(MessageKeys.REGISTER_SUCCESSFULLY));
+            registerResponse.setMessage("Đăng ký tài khoản thành công");
             registerResponse.setUser(user);
             return ResponseEntity.ok(registerResponse);
         } catch (Exception e) {
